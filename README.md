@@ -4,7 +4,7 @@ Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenci
 <br>
 DISCLAIMER
 <br>
-1. O arquivo Dashboard Vendas.pdf foi importado propositalmente no formato pdf. Infelizmente, dessa forma, a interatividade do dashboard não pode ser representada. 
+1 - O arquivo Dashboard Vendas.pdf foi importado propositalmente no formato pdf. Infelizmente, dessa forma, a interatividade do dashboard não pode ser representada. 
 <br>
-2. O projeto tem como característica primária o aprendizado. A base de dados utilizada está presente em: 
+2 - O projeto tem como característica primária o aprendizado. A base de dados utilizada está presente em: 
 https://topmate.io/data_tutorials/868486?utm_source=public_profile&utm_campaign=data_tutorials 
