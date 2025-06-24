@@ -1,8 +1,8 @@
-# O PROJETO
+O PROJETO
 <br>
 Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenciador do banco de dados) e Power BI voltado para a obtenção de insights sobre serviços e vendas no setor alimentício. Neste projeto será apresentado a Modelagem de Dados, Técnicas de Limpeza de Dados, Funções DAX, Gráficos e Layout Avançados, Visualizações Dinâmicas e Insights sobre a área.
 <br>
-# DISCLAIMER
+DISCLAIMER
 <br>
 1. O arquivo Dashboard Vendas.pdf foi importado propositalmente no formato pdf. Infelizmente, dessa forma, a interatividade do dashboard não pode ser representada. 
 <br>
