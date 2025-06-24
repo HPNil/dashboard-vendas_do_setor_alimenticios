@@ -4,7 +4,7 @@ Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenci
 <br><br>
 O DASHBOARD
 <br>
-A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, novamente, por se tratar de um pdf, não está funcionando :(
+A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando :(
 ![Image](https://github.com/user-attachments/assets/e56da16b-759a-4f29-b3e8-42796941cff0)
 <br><br>
 A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas).
