@@ -21,7 +21,7 @@ A primeira página, a Tela Inicial exibe as principais métricas para os dados u
 <img src="https://github.com/user-attachments/assets/7087a281-aba9-4f2d-9982-1c4c9ad2f530" alt="1">
 <br>
 A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). <br>
-![image](https://github.com/user-attachments/assets/c322bbf1-0abc-4f29-af45-63ecdb9154ec)
+<img src="https://github.com/user-attachments/assets/feb74bd8-915c-4564-a627-7a3ff32a11d3" alt="2">
 <br><br>
 DISCLAIMER
 <br>
