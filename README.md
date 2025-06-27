@@ -4,6 +4,7 @@ Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenci
 <br><br>
 OBJETIVO
 <br>
+Responder as seguintes perguntas:
 <li>Qual é a receita total gerada no período analisado? </li>
 <li>Qual é o valor médio de um pedido (Average Order Value - AOV)? </li>
 <li>Quantos pedidos únicos e quantas pizzas foram vendidas no total? </li>
