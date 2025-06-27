@@ -18,7 +18,7 @@ OBJETIVO
 O DASHBOARD
 <br>
 A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando :( <br>
-![image](https://github.com/user-attachments/assets/7661ed73-6a6f-4e25-a704-67f44a582dd2)
+[![image](https://github.com/HPNil/dashboard-vendas_de_pizzas/issues/2#issue-3184109227)]
 <br><br>
 A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). <br>
 ![image](https://github.com/user-attachments/assets/c322bbf1-0abc-4f29-af45-63ecdb9154ec)
