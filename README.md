@@ -4,21 +4,21 @@ Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenci
 <br><br>
 OBJETIVO
 <br>
-<li>Qual é a receita total gerada no período analisado? <br>
-<li>Qual é o valor médio de um pedido (Average Order Value - AOV)? <br>
-<li>Quantos pedidos únicos e quantas pizzas foram vendidas no total? <br>
-<li>Quais são os dias da semana com maior volume de vendas? <br>
-<li>Como as vendas e a receita se distribuem ao longo do ano? Existem meses com desempenho significativamente melhor ou pior? <br>
-<li>Qual o percentual de pizza vendidas por categoria? <br>
-<li>Qual o percentual de pizza vendidas por tamanho? <br>
-<li>Qual o total de pizzas vendidas por categoria? <br>
-<li>Quais são os top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? <br>
-<li>Quais são os top 5 piores pizzas em termos de faturamento, quantidade e pedidos?
-<br><br>
+<li>Qual é a receita total gerada no período analisado? </li>
+<li>Qual é o valor médio de um pedido (Average Order Value - AOV)? </li>
+<li>Quantos pedidos únicos e quantas pizzas foram vendidas no total? </li>
+<li>Quais são os dias da semana com maior volume de vendas? </li>
+<li>Como as vendas e a receita se distribuem ao longo do ano? Existem meses com desempenho significativamente melhor ou pior? </li>
+<li>Qual o percentual de pizza vendidas por categoria? </li>
+<li>Qual o percentual de pizza vendidas por tamanho? </li>
+<li>Qual o total de pizzas vendidas por categoria? </li>
+<li>Quais são os top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<li>Quais são os top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<br>
 O DASHBOARD
 <br>
-A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando.
-![image](https://github.com/user-attachments/assets/6a43197b-a838-41e3-9698-af8f4b25608e)
+A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando. <br>
+<img src="https://github.com/user-attachments/assets/7087a281-aba9-4f2d-9982-1c4c9ad2f530" alt="1">
 <br>
 A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). <br>
 ![image](https://github.com/user-attachments/assets/c322bbf1-0abc-4f29-af45-63ecdb9154ec)
