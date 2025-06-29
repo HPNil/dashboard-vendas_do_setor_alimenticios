@@ -4,7 +4,7 @@
 <br>
 <a href="#2">2. Objetivo</a>
 <br>
-<a href="#3">3. Análise do Banco de Dados</a>
+<a href="#3">3. Modelagem da Base de Dados</a>
 <br>
 <a href="#4">4. Dashboard</a>
 <br>
@@ -36,7 +36,7 @@
 
 <h2 id="3"></h2>
 
-**3. ANÁLISE DA BASE DE DADOS**
+**3. MODELAGEM DA BASE DE DADOS**
 <br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;A estrutura/modelagem da base de dados tem alguns pontos de possíveis melhorias, dividir a tabela principal em mais entidades é o ponto principal, organizar todas as informações citadas em uma única entidade pode ocasionar em diversos problemas de inserção de dados, erros de digitação podem ser frequentes no modelo no estado atual. A estrutura original pode ser vista abaixo:</p>
 <br>
