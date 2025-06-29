@@ -1,8 +1,16 @@
-O PROJETO
+**ÍNDICE**
+1. Introdução<br>
+2. Objetivo<br>
+3. Análise do Banco de Dados<br>
+4. Dashboard<br>
+
+**1. INTRODUÇÃO**
 <br>
-Construção de um Dashboard Interativo utilizando SQL (com o MySQL como gerenciador do banco de dados) e Power BI voltado para a obtenção de insights sobre serviços e vendas no setor alimentício. Neste projeto será apresentado a Modelagem de Dados, Técnicas de Limpeza de Dados, Funções DAX, Gráficos e Layout Avançados, Visualizações Dinâmicas e Insights sobre a área.
+Este projeto aborda a análise e visualização de dados, mais especificamente, dados das vendas de uma pizzaria. Para a concretização do projeto, foram realizadas duas etapas. Inicialmente, foi feita uma limpeza dos dados presentes no dataset utilizado Python (Pandas, NumPy) e uma Análise Descritiva dos dados.
+<br>
+Para a segunda etapa, a fim de responder às perguntas levantadas sobre os dados, uma visualização destes foi feita. Foi desenvolvido um Dashboard Interativo fazendo uso da ferramenta Power BI para a apresentação do comportamento dos dados no contexto das dúvidas estabelecidas.
 <br><br>
-OBJETIVO
+**2. OBJETIVO**
 <br>
 Responder as seguintes perguntas:
 <li>Qual é a receita total gerada no período analisado? </li>
@@ -16,7 +24,11 @@ Responder as seguintes perguntas:
 <li>Quais são os top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
 <li>Quais são os top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
 <br>
-O DASHBOARD
+**3. ANÁLISE DA BASE DE DADOS**
+<br>
+a
+<br><br>
+**4. DASHBOARD**
 <br>
 A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando. <br>
 <img src="https://github.com/user-attachments/assets/7087a281-aba9-4f2d-9982-1c4c9ad2f530" alt="1">
