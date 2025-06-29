@@ -1,18 +1,28 @@
 **ÍNDICE**
-1. Introdução<br>
-2. Objetivo<br>
-3. Análise do Banco de Dados<br>
-4. Dashboard<br>
+<br>
+<a href="1">1. Introdução</a>
+<br>
+<a href="2">2. Objetivo</a>
+<br>
+<a href="3">3. Análise do Banco de Dados</a>
+<br>
+<a href="4">4. Dashboard</a>
+<br>
+<a href="dis">5. Disclaimer</a>
+
+<h2 id="1"></h2>
 
 **1. INTRODUÇÃO**
 <br>
-Este projeto aborda a análise e visualização de dados, mais especificamente, dados das vendas de uma pizzaria. Para a concretização do projeto, foram realizadas duas etapas. Inicialmente, foi feita uma limpeza dos dados presentes no dataset utilizado Python (Pandas, NumPy) e uma Análise Descritiva dos dados.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Este projeto aborda a análise e visualização de dados, mais especificamente, dados das vendas de uma pizzaria. Para a concretização do projeto, foram realizadas duas etapas. Inicialmente, foi feita uma limpeza dos dados presentes no dataset utilizado Python (Pandas, NumPy) e uma Análise Descritiva dos dados.</p>
 <br>
-Para a segunda etapa, a fim de responder às perguntas levantadas sobre os dados, uma visualização destes foi feita. Foi desenvolvido um Dashboard Interativo fazendo uso da ferramenta Power BI para a apresentação do comportamento dos dados no contexto das dúvidas estabelecidas.
-<br><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Para a segunda etapa, a fim de responder às perguntas levantadas sobre os dados, uma visualização destes foi feita. Foi desenvolvido um Dashboard Interativo fazendo uso da ferramenta Power BI para a apresentação do comportamento dos dados no contexto das dúvidas estabelecidas.</p>
+
+<h2 id="2"></h2>
+
 **2. OBJETIVO**
 <br>
-Responder as seguintes perguntas:
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Responder, de forma visual (em um dashboard), as seguintes perguntas:
 <li>Qual é a receita total gerada no período analisado? </li>
 <li>Qual é o valor médio de um pedido (Average Order Value - AOV)? </li>
 <li>Quantos pedidos únicos e quantas pizzas foram vendidas no total? </li>
@@ -23,20 +33,44 @@ Responder as seguintes perguntas:
 <li>Qual o total de pizzas vendidas por categoria? </li>
 <li>Quais são os top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
 <li>Quais são os top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
-<br>
+
+<h2 id="3"></h2>
+
 **3. ANÁLISE DA BASE DE DADOS**
 <br>
-a
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A estrutura/modelagem da base de dados tem alguns pontos de possíveis melhorias, dividir a tabela principal em mais entidades é o ponto principal, organizar todas as informações citadas em uma única entidade pode ocasionar em diversos problemas de inserção de dados, erros de digitação podem ser frequentes no modelo no estado atual. A estrutura original pode ser vista abaixo:</p>
+<br>
+Venda(#pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit_price, pizza_size, pizza_category, pizza_ingredients, pizza_name)
 <br><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Uma alternativa seria dividir a entidade principal em 6 outras entidades, dessa forma, a relação dos dados de uma coluna com os de outra coluna seria mais clara, além de evitar erros de digitação do usuário. Um Diagrama de Entidade-Relacionamento (DER ou MER) que siga as premissas levantadas pode ser visto abaixo:</p>
+<img src="https://github.com/user-attachments/assets/e808a3df-f1a2-44f2-8a93-bb40c9b654cb" alt=0>
+<br>
+
+<h2 id="4"></h2>
+
 **4. DASHBOARD**
 <br>
-A primeira página, a Tela Inicial exibe as principais métricas para os dados utilizados e para o contexto do projeto. Para ambas as páginas deste Dashboard, a coluna à esquerda traz inicialmente a parte de navegação (para que possamos ir de uma página a outra), em seguida, os filtros para a exibição das métricas citadas e, por fim, uma parte de links para contato e, por se tratar de um pdf, não está funcionando. <br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Para a visualização dos dados de forma a conseguirmos responder as perguntas sobre as vendas da pizzaria, o dashboard foi estruturado dividindo as informações em duas páginas.</p>
+
+**4.1 Tela Inicial**
+<br>
 <img src="https://github.com/user-attachments/assets/7087a281-aba9-4f2d-9982-1c4c9ad2f530" alt="1">
 <br>
-A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). <br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A primeira página, ou ainda, a Tela Inicial, exibe na primeira coluna à esquerda, um menu, onde inicialmente podemos navegar entre às páginas, logo abaixo, temos algumas opções de filtros a serem utilizados para uma possível análise mais aprofundada. Por fim, há uma área de links para contato.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Desconsiderando o título, a primeira linha horizontal exibe alguns KPIs, estes cartões respondem as perguntas 1, 2, 3 e 4. A segunda linha, nas duas primeiras caixas, nos mostra a quantidade de ordens emitidas por dia da semana e por mês, esses gráficos respondem às perguntas 5 e 6, onde fica claro que há uma maior tendência de compra de pizzas nos dias próximos da sexta-feira. Quanto à emissão de ordem pelos meses do ano, podemos observar que temos um pico de vendas em julho, enquanto que até outubro as vendas tendem a cair momentaneamente. A terceira, e última, caixa desta linha responde a pergunta 9. Podemos observar que a pizza da categoria Classic tem uma boa diferença em questão de vendas quando comparada com as outras categorias.</p>
+  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Na terceira linha horizontal, iniciando respondendo a pergunta 8, temos que as vendas tendem a se manter estáveis na 2ª, 3ª e 4ª semana do mês, decaindo nas outras. Deve-se levar em consideração que os meses possuem menos semanas 5 e 6 que 1, 2, 3 e 4, isto pode explicar o porquê da queda observada nessas duas semanas finais. Por fim, temos dois gráficos de aneis que nos mostram o percentual de pizzas vendidas por categoria e tamanho. Pizzas do tipo Grande englobam grande parte das pizzas, enquanto que as do tipo XExtra-Grande são pouco pedidas. Para a proporção por categoria, há um bom equilíbrio nas vendas.</p>
+<br>
+
+**4.2 Melhores e Piores Vendas**
+<br>
 <img src="https://github.com/user-attachments/assets/feb74bd8-915c-4564-a627-7a3ff32a11d3" alt="2">
-<br><br>
-DISCLAIMER
+<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas).</p>
+
+<h2 id="dis"></h2>
+
+**DISCLAIMER**
 <br>
 1 - O arquivo Dashboard Vendas.pdf foi importado propositalmente no formato pdf. Infelizmente, dessa forma, a interatividade do dashboard não pode ser representada. 
 <br>
