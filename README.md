@@ -23,16 +23,19 @@
 **2. OBJETIVO**
 <br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Responder, de forma visual (em um dashboard), as seguintes perguntas:
-<li>Qual é a receita total gerada no período analisado? </li>
-<li>Qual é o valor médio de um pedido (Average Order Value - AOV)? </li>
-<li>Quantos pedidos únicos e quantas pizzas foram vendidas no total? </li>
-<li>Quais são os dias da semana com maior volume de vendas? </li>
-<li>Como as vendas e a receita se distribuem ao longo do ano? Existem meses com desempenho significativamente melhor ou pior? </li>
-<li>Qual o percentual de pizza vendidas por categoria? </li>
-<li>Qual o percentual de pizza vendidas por tamanho? </li>
-<li>Qual o total de pizzas vendidas por categoria? </li>
-<li>Quais são os top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
-<li>Quais são os top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<li>1 - Qual é a receita total gerada no período analisado? </li>
+<li>2 - Qual é o valor médio de um pedido (Average Order Value - AOV)? </li>
+<li>3 - Quantas pizzas foram vendidas no total? </li>
+<li>4 - Quantos pedidos foram feitos no total? </li>
+<li>5 - Qual a média de pizzas por ordem? </li>
+<li>6 - Quais são os dias da semana com maior volume de vendas? </li>
+<li>7 - Como as vendas se distribuem ao longo do ano? Existem meses com desempenho significativamente melhor ou pior? </li>
+<li>8 - Qual o total de pizzas vendidas por categoria? </li>
+<li>9 - Existe alguma diferença na emissão de ordens por semana do mês? </li>
+<li>10 - Qual o percentual de pizza vendidas por categoria? </li>
+<li>11 - Qual o percentual de pizza vendidas por tamanho? </li>
+<li> - Quais são as top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<li> - Quais são as top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
 
 <h2 id="3"></h2>
 
@@ -57,16 +60,17 @@ Venda(#pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit
 <img src="https://github.com/user-attachments/assets/7087a281-aba9-4f2d-9982-1c4c9ad2f530" alt="1">
 <br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;A primeira página, ou ainda, a Tela Inicial, exibe na primeira coluna à esquerda, um menu, onde inicialmente podemos navegar entre às páginas, logo abaixo, temos algumas opções de filtros a serem utilizados para uma possível análise mais aprofundada. Por fim, há uma área de links para contato.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Desconsiderando o título, a primeira linha horizontal exibe alguns KPIs, estes cartões respondem as perguntas 1, 2, 3 e 4. A segunda linha, nas duas primeiras caixas, nos mostra a quantidade de ordens emitidas por dia da semana e por mês, esses gráficos respondem às perguntas 5 e 6, onde fica claro que há uma maior tendência de compra de pizzas nos dias próximos da sexta-feira. Quanto à emissão de ordem pelos meses do ano, podemos observar que temos um pico de vendas em julho, enquanto que até outubro as vendas tendem a cair momentaneamente. A terceira, e última, caixa desta linha responde a pergunta 9. Podemos observar que a pizza da categoria Classic tem uma boa diferença em questão de vendas quando comparada com as outras categorias.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Desconsiderando o título, a primeira linha horizontal exibe alguns KPIs, estes cartões respondem as perguntas 1, 2, 3, 4 e 5. A segunda linha, nas duas primeiras caixas, nos mostra a quantidade de ordens emitidas por dia da semana e por mês, esses gráficos nos ajudam a responder as perguntas 6 e 7. Quanto as vendas pelos dias da semana, percebe-se que dias próximos de sexta-feira (incluindo sexta-feira) tendem a ter um maior índice de ordens e quanto à emissão de ordem pelos meses do ano, podemos observar que temos um pico de vendas em julho, enquanto que até outubro as vendas tendem a cair. A terceira, e última, caixa desta linha responde a pergunta 8. Podemos observar que a pizza da categoria Classic tem uma boa diferença em questão de vendas quando comparada com as outras categorias.</p>
   
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Na terceira linha horizontal, iniciando respondendo a pergunta 8, temos que as vendas tendem a se manter estáveis na 2ª, 3ª e 4ª semana do mês, decaindo nas outras. Deve-se levar em consideração que os meses possuem menos semanas 5 e 6 que 1, 2, 3 e 4, isto pode explicar o porquê da queda observada nessas duas semanas finais. Por fim, temos dois gráficos de aneis que nos mostram o percentual de pizzas vendidas por categoria e tamanho. Pizzas do tipo Grande englobam grande parte das pizzas, enquanto que as do tipo XExtra-Grande são pouco pedidas. Para a proporção por categoria, há um bom equilíbrio nas vendas.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Na terceira linha horizontal, iniciando respondendo a pergunta 9, temos que as vendas tendem a se manter estáveis na 2ª, 3ª e 4ª semana do mês, decaindo nas outras. Deve-se levar em consideração que os meses dificilmente possuem semanas 5 e 6, isto pode explicar o porquê da queda observada nessas duas semanas finais. Por fim, temos dois gráficos de aneis que nos mostram o percentual de pizzas vendidas por categoria e tamanho, isto faz referência as perguntas 10 e 11, respectivamente. Pizzas do tipo Grande englobam grande parte das pizzas, enquanto que as do tipo XExtra-Grande são pouco pedidas. Para a proporção por categoria, há um bom equilíbrio nas vendas.</p>
 <br>
 
 **4.2 Melhores e Piores Vendas**
 <br>
 <img src="https://github.com/user-attachments/assets/feb74bd8-915c-4564-a627-7a3ff32a11d3" alt="2">
 <br>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A segunda página, traz gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas).</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A segunda página, traz novos gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). Quanto ás top melhores, pode-se observar que não há uma diferença significante entre as melhores, mas ao observar o tipo das pizzas, percebe-se que as pizzas "The Classic Deluxe", "The Thai Chicken" e "The Barbecue Chicken Pizza" sempre aparecem entre os top 5.
+</p>
 
 <h2 id="dis"></h2>
 
