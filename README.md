@@ -34,8 +34,8 @@
 <li>9 - Existe alguma diferença na emissão de ordens por semana do mês? </li>
 <li>10 - Qual o percentual de pizza vendidas por categoria? </li>
 <li>11 - Qual o percentual de pizza vendidas por tamanho? </li>
-<li> - Quais são as top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
-<li> - Quais são as top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<li>12 - Quais são as top 5 melhores pizzas em termos de faturamento, quantidade e pedidos? </li>
+<li>13 - Quais são as top 5 piores pizzas em termos de faturamento, quantidade e pedidos? </li>
 
 <h2 id="3"></h2>
 
@@ -69,8 +69,7 @@ Venda(#pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit
 <br>
 <img src="https://github.com/user-attachments/assets/feb74bd8-915c-4564-a627-7a3ff32a11d3" alt="2">
 <br>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;A segunda página, traz novos gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). Quanto ás top melhores, pode-se observar que não há uma diferença significante entre as melhores, mas ao observar o tipo das pizzas, percebe-se que as pizzas "The Classic Deluxe", "The Thai Chicken" e "The Barbecue Chicken Pizza" sempre aparecem entre os top 5.
-</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;A segunda página, traz novos gráficos de barras com os top 5 melhores/piores nomes de pizzas dependendo da métrica (elas vão de Faturamento, Quantidade Vendida de Pizzas e Quantidade de Ordens Emitidas contendo estas pizzas). Quanto ás top melhores e respondendo a pergunta 12, pode-se observar que não há uma diferença significante em questão de valores entre as melhores, mas ao observar o tipo das pizzas, percebe-se que as pizzas "The Classic Deluxe", "The Thai Chicken" e "The Barbecue Chicken Pizza" sempre aparecem entre os top 5. Mudando de ambito, os gráficos das top piores respondem a última pergutna (13), dentre as pizzas, a "The Brie Carre Pizza" se mostra como a opção menos interessante em todos os quesitos.</p>
 
 <h2 id="dis"></h2>
 
