@@ -53,7 +53,7 @@ Venda(#pizza_id, order_id, pizza_name_id, quantity, order_date, order_time, unit
 
 **4. DASHBOARD**
 <br>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Para a visualização dos dados de forma a conseguirmos responder as perguntas sobre as vendas da pizzaria, o dashboard foi estruturado dividindo as informações em duas páginas.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Para a visualização dos dados de forma a conseguirmos responder as perguntas sobre as vendas da pizzaria, o dashboard foi estruturado dividindo as informações em duas páginas. Uma observação importante a se fazer é que todos os valroes foram validados utilizando consultas à base de dados original com SQL.</p>
 
 **4.1 Tela Inicial**
 <br>
